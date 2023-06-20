@@ -9,7 +9,7 @@ process.on('uncaughtException', (err) => {
     process.exit(1); // Kết thúc tiến trình với mã lỗi 1
   });
 // Config
-dotenv.config({ path: 'backend/config/config.env' });
+dotenv.config({ path: 'config/config.env' });
 
 // Connecting to database
 connectDatabase();
